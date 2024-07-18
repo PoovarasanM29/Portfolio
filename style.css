@@ -1,0 +1,239 @@
+* {
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    
+    
+    
+}
+
+body {
+    background-color: #00111c;
+    color: #fff;
+    margin-top: 0;
+    
+
+}
+
+header {
+    background-color: #002137;
+    padding: 20px;
+    margin: 10px; 
+    border: 3px solid #7a007a;
+    color:red;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 0;
+    width: 90%;
+    text-shadow: none;
+    z-index: 1;
+
+}
+
+header h1 {
+    text-align: left;
+    font-size:30px;
+}
+
+header h1,
+li,
+ul,
+nav {
+    display: inline;
+}
+
+header nav {
+    margin-left: 50px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: goldenrod;
+    justify-content: space-evenly;
+    font-size: large;
+   
+}
+
+nav li {
+    list-style-type: none;
+
+}
+
+a:hover {
+    background-color: #001824;
+    border-radius: 50px;
+    color:gold;
+}
+
+a:focus,
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+#profile img {
+    height: 350px;
+    width: 300px;
+    border: 3px solid gold;
+    border-radius: 360px;
+
+    
+
+
+}
+
+#About {
+    
+    padding: 10px;
+    display: flex;
+   
+      
+}     
+.description p{
+    padding:10px;
+    height: 200px;
+    width: 700px;
+    text-wrap: wrap;
+    text-shadow: gold 1px  3px 10px;
+    
+    
+}
+.education img{
+    display: inline;
+    height:40px;
+    width: 40px;
+    border-radius: 360px;
+}
+.education h2{
+    display: inline;
+    position:relative;
+    bottom:33px;
+    right:30px;
+    
+
+    
+}
+tr,td,th{
+    border:2px solid gold;
+    border-collapse: collapse;
+    padding: 30px;
+    text-shadow: gold 1px  3px 10px;
+}
+#skills{
+    display: flex;
+    padding:rem;
+    flex-wrap: wrap;
+    text-align:center;
+    text-shadow: gold 1px  3px 10px;
+
+}
+#skills img{
+    height:30px;
+    width: 30px;
+
+}
+.html:hover{
+    border:2px solid orangered;
+    border-radius:25px;
+    
+}
+.css:hover{
+    border:2px solid blue;
+    border-radius:25px;
+}
+.javascript:hover{
+    border:2px solid yellow;
+    border-radius:25px;
+}
+.python:hover{
+    border:2px solid blueviolet;
+    border-radius:25px;
+}
+.java:hover{
+    border:2px solid orange;
+    border-radius:25px;
+}
+.debug:hover{
+    border:2px solid greenyellow;
+    border-radius:25px;
+}
+#projects{
+    padding:1rem;
+    
+}
+#projects p{
+    color:antiquewhite
+}
+#projects img{
+    height:500px;
+    width: 80vw;
+
+}
+#Tools{
+    display: flex;
+    padding:10px;
+    flex-wrap: wrap;
+    text-shadow: gold 1px  3px 10px;
+    color:gold;
+    position: relative;  
+}
+#Tools img{
+    height:100px;
+    width:100px;
+}
+.mail{
+    padding:10px;
+    display: inline;
+    
+
+
+}
+.mail a{
+    display: inline;
+    position: relative;
+    bottom: 27px;
+    right:40px;
+    
+}
+.mail a{
+    text-decoration: none;
+    color: white;
+    
+    padding:5px;
+    border-radius: 50px;
+
+}
+.mail a:hover{
+    background-color: green;
+    border: 1px solid #000;
+    
+}
+.mail img{
+    height:30px;
+    width: 30px;
+}
+footer{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 40px;
+}
+footer:hover{
+    background-color: #00406c;
+    font-size: 20px;
+    border:1px solid red;
+}
+h2{
+    text-decoration: underline;
+    font-size: 30px;
+    color:red;
+}
+h4{
+    text-decoration:underline;
+    color:#bc00dd;
+}
